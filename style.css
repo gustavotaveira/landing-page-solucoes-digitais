@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	text-align: center;
+}
+
+body {
+	background-color: #0E152B;
+	font-family: "Franklin Gothic";
+	color: #34B2F9;
+}
+
+footer{
+	height: 90px;
+	padding: 40px 0 0 0;
+}
+
+header{
+	height: 120px;
+}
+
+#logo {
+	float: left;
+}
+
+#img_logo{
+	height: 120px;
+}
+
+#menu {
+	float: right;
+	margin: 50px 30px 0 0;
+}
+
+#menu a {
+	padding: 50px 40px;
+	margin: 0 0 0 -4px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #34B2F9;
+}
+
+#menu a:hover {
+	background-color: rgb(18, 29, 82);
+	color: #34B2F9;
+}
+
+main{
+	clear: both;
+}
+
+article{
+	height: 400px;
+	background-image: url('images/circuits.jpg');
+	background-size: cover;
+	background-position-y: 25%;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#text-content{
+	padding: 100px 0 0 0;
+	text-shadow: 1px 1px 2px #111111;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#text-content-block{
+	background-color: rgba(1, 1, 1, 0.60);
+	padding: 70px 0;
+}
+
+#text-content-title{
+	text-align: center;
+	font-size: 35px;
+	padding: 0 0 6px 0;
+}
